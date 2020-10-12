@@ -5,7 +5,7 @@ body {
   margin: 2em;
   font-family: 'Special Elite', cursive; }
   body img {
-    width: 50%;
+    width: 100%;
     display: block;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -17,18 +17,19 @@ iframe {
   margin-top: 2em;
   margin-bottom: 2em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  border: 5px solid black; }
 
 h1 {
   text-align: center;
-  border-top: 2px dotted black;
-  border-bottom: 2px dotted black;
-  padding: 10px;
-  font-size: 2rem; }
+  border-top: 2px dashed black;
+  border-bottom: 2px dashed black;
+  padding: .5em 2em .4em 2em;
+  font-size: 2em; }
 
-ul {
+ol {
   text-align: center;
-  list-style: none;
+  list-style-position: inside;
   font-size: 1.5rem; }
 
 p {
@@ -36,6 +37,18 @@ p {
 
 .special {
   border-top: 5px solid black; }
+
+.imagewidth50 {
+  width: 50%; }
+
+.imagewidth75 {
+  width: 75%; }
+
+a:link {
+  color: white; }
+
+a:hover {
+  background: black; }
 
 footer {
   padding: 1em; }
